@@ -1,22 +1,33 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependencies
+/node_modules/
 
-node_modules
-dist
-dist-ssr
+# Next.js and other build output
+/.next/
+/out/
+/build/
+/dist/
+/coverage/
+
+# Generated TypeScript files
+*.tsbuildinfo
+/next-env.d.ts
+
+# Local environment files (keep examples in Git)
+.env*
+!.env.example
+!.env.*.example
 *.local
 
-# Editor directories and files
+# Logs
+*.log
+logs/
+
+# Hosting and editor files
+.vercel/
+.DS_Store
+.idea/
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
