@@ -13,7 +13,7 @@ const schema = z.object({
 type FormData = z.infer<typeof schema>;
 const details = [
   { icon: Phone, text: '010 2780 2400' },
-  { icon: Mail, text: 'megapow.co1@gmail.com' },
+  { icon: Mail, text: 'megapower.co1@gmail.com' },
   { icon: MapPin, text: '129 Industrial Zone, 6th of October City' },
   { icon: Clock3, text: 'Sat–Thu: 8:00 AM – 6:00 PM' },
 ];
