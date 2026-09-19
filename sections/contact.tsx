@@ -12,10 +12,10 @@ const schema = z.object({
 });
 type FormData = z.infer<typeof schema>;
 const details = [
-  [Phone, '010 2780 2400'],
-  [Mail, 'megapow.co1@gmail.com'],
-  [MapPin, '129 Industrial Zone, 6th of October City'],
-  [Clock3, 'Sat–Thu: 8:00 AM – 6:00 PM'],
+  { icon: Phone, text: '010 2780 2400' },
+  { icon: Mail, text: 'megapow.co1@gmail.com' },
+  { icon: MapPin, text: '129 Industrial Zone, 6th of October City' },
+  { icon: Clock3, text: 'Sat–Thu: 8:00 AM – 6:00 PM' },
 ];
 export function Contact() {
   const {
@@ -38,11 +38,10 @@ export function Contact() {
             to you as soon as possible.
           </p>
           <div className="mt-8 grid gap-4">
-            {details.map(([Icon, text]) => {
-              const I = Icon as typeof Phone;
+            {details.map(({ icon: Icon, text }) => {
               return (
                 <p className="flex items-start gap-3 text-sm" key={text}>
-                  <I className="mt-0.5 shrink-0 text-red-300" size={18} />
+                  <Icon className="mt-0.5 shrink-0 text-red-300" size={18} />
                   {text}
                 </p>
               );
