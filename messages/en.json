@@ -1,1 +1,166 @@
-{ "Navigation": { "home": "Home", "services": "Services", "projects": "Projects", "about": "About us", "contact": "Contact" } }
+{
+  "Metadata": {
+    "title": "Mega Power | Engineering Excellence",
+    "description": "Premium engineering solutions for power, industrial and infrastructure projects."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "team": "Our Team",
+    "vision": "Vision",
+    "contact": "Contact Us",
+    "getInTouch": "Get In Touch",
+    "toggle": "Toggle navigation",
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "Hero": {
+    "eyebrow": "MEGA POWER",
+    "titleFirst": "Powering Solutions.",
+    "titleHighlight": "Protecting",
+    "titleLast": "What Matters.",
+    "description": "Mega Power delivers integrated engineering solutions in Electrical Works, Fire Fighting Systems, Fire Alarm Systems, HSE Services, Facility Management and General Supplies.",
+    "servicesButton": "Our Services",
+    "contactButton": "Contact Us",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Completed Projects",
+      "clients": "Satisfied Clients",
+      "support": "Support"
+    }
+  },
+  "About": {
+    "imageAlt": "Industrial engineering facility",
+    "years": "Years of Excellence",
+    "eyebrow": "WHO WE ARE",
+    "titleFirst": "Built on Experience.",
+    "titleSecond": "Driven by",
+    "titleHighlight": "Excellence.",
+    "descriptionOne": "Mega Power is an Egyptian engineering company established in 2021, specializing in comprehensive solutions across electrical works, fire systems, HSE services, facility management and general supplies.",
+    "descriptionTwo": "We deliver reliable, safe and cost-effective solutions that meet international standards and exceed our clients’ expectations.",
+    "button": "Learn More About Us"
+  },
+  "Services": {
+    "eyebrow": "OUR SERVICES",
+    "titleFirst": "Comprehensive Solutions for",
+    "titleHighlight": "Every Need",
+    "contactAria": "Contact Mega Power about {service}",
+    "items": {
+      "electrical": {
+        "title": "Electrical Works",
+        "description": "Design, installation and maintenance of dependable electrical systems.",
+        "imageAlt": "Engineer working on electrical equipment"
+      },
+      "fireAlarm": {
+        "title": "Fire Alarm Systems",
+        "description": "Commissioning and maintenance for complete fire alarm protection.",
+        "imageAlt": "Fire alarm safety equipment"
+      },
+      "fireFighting": {
+        "title": "Fire Fighting Systems",
+        "description": "Engineered suppression systems that protect people and property.",
+        "imageAlt": "Fire protection equipment"
+      },
+      "hse": {
+        "title": "HSE Services",
+        "description": "Health, safety and environmental services for a compliant workplace.",
+        "imageAlt": "Industrial worker wearing safety equipment"
+      },
+      "facility": {
+        "title": "Facility Management",
+        "description": "Professional services that keep critical operations performing.",
+        "imageAlt": "Modern commercial facility exterior"
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Reliable sourcing and supply for technical project requirements.",
+        "imageAlt": "Warehouse storage and procurement supplies"
+      },
+      "supplies": {
+        "title": "General Supplies",
+        "description": "Quality materials, consumables and industrial supply solutions.",
+        "imageAlt": "Organized industrial materials"
+      },
+      "catering": {
+        "title": "Catering Services",
+        "description": "Consistent catering solutions for teams and project sites.",
+        "imageAlt": "Professional food service preparation"
+      }
+    }
+  },
+  "WhyChooseUs": {
+    "eyebrow": "WHY CHOOSE US",
+    "title": "Your Trusted Partner in Every Project",
+    "features": {
+      "team": "Experienced Team",
+      "quality": "Quality Assurance",
+      "safety": "Safety First",
+      "delivery": "On-Time Delivery",
+      "response": "Fast Response",
+      "pricing": "Competitive Pricing"
+    }
+  },
+  "Clients": { "eyebrow": "TRUSTED BY FORWARD-THINKING CLIENTS" },
+  "Team": {
+    "eyebrow": "OUR TEAM",
+    "titleFirst": "The People Behind",
+    "titleHighlight": "Our Success",
+    "people": {
+      "mohamed": { "name": "Mohamed Abbas", "role": "Chairman of the Board" },
+      "abdallah": { "name": "Abdallah Wael", "role": "Managing Director" },
+      "mostafa": { "name": "Mostafa Waleed", "role": "Operations Manager" }
+    }
+  },
+  "Vision": {
+    "eyebrow": "WHAT DRIVES US",
+    "titleFirst": "Our Vision, Mission",
+    "titleHighlight": "& Values",
+    "intro": "The principles behind every solution we design, every project we deliver, and every partnership we build.",
+    "visionTitle": "Our Vision",
+    "visionText": "To become one of Egypt’s leading engineering and safety solution providers, recognized for our quality, reliability and innovation.",
+    "missionTitle": "Our Mission",
+    "missionText": "Deliver high-quality engineering services with a strong focus on safety, integrity and customer satisfaction.",
+    "foundation": "THE FOUNDATION",
+    "valuesTitle": "Our Values",
+    "valuesIntro": "The standards we work by, every day.",
+    "values": {
+      "integrity": "Integrity",
+      "safety": "Safety",
+      "quality": "Quality",
+      "innovation": "Innovation"
+    }
+  },
+  "Contact": {
+    "eyebrow": "GET IN TOUCH",
+    "title": "Let's Work Together",
+    "intro": "Have a project in mind? Contact us today and our team will get back to you as soon as possible.",
+    "address": "129 Industrial Zone, 6th of October City",
+    "hours": "Sat–Thu: 8:00 AM – 6:00 PM",
+    "formTitle": "Start a conversation",
+    "name": "Your name",
+    "email": "Your email",
+    "phone": "Your phone",
+    "message": "Project details",
+    "messagePlaceholder": "Write your message here...",
+    "submit": "Send Message",
+    "success": "Thank you. We'll be in touch shortly.",
+    "engineeringSolutions": "Engineering Solutions",
+    "validation": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email.",
+      "phone": "Please enter your phone number.",
+      "message": "Tell us a little more about your project."
+    }
+  },
+  "Footer": {
+    "tagline": "Powering solutions. Protecting what matters. Your trusted partner in engineering and safety.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "location": "6th of October City, Giza",
+    "follow": "Follow Us",
+    "copyright": "© {year} Mega Power. All Rights Reserved."
+  }
+}

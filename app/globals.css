@@ -12,7 +12,7 @@
   --color-muted: var(--muted);
   --radius-card: var(--radius);
   --shadow-card: var(--shadow-card);
-  --font-sans: var(--font-manrope);
+  --font-sans: Arial, sans-serif;
 }
 
 * {
@@ -25,6 +25,12 @@ body {
   background: var(--background);
   color: var(--body);
   font-family: Arial, sans-serif;
+}
+html[lang='ar'] body {
+  font-family: var(--font-arabic), Arial, sans-serif;
+}
+html[lang='ar'] [class*='tracking-'] {
+  letter-spacing: normal;
 }
 ::selection {
   background: #0d47a1;
