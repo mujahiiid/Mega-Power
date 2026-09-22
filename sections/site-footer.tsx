@@ -1,5 +1,6 @@
 import { Facebook, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { contactInfo } from '@/constants/site';
 
 const footerLinks = [
   { key: 'home', href: '#home' },
@@ -13,6 +14,7 @@ const footerLinks = [
 export function SiteFooter() {
   const t = useTranslations('Footer');
   const nav = useTranslations('Navigation');
+  const contact = useTranslations('Contact');
 
   return (
     <footer className="bg-slate-950 pt-12 text-slate-300">
@@ -46,15 +48,15 @@ export function SiteFooter() {
           <div className="mt-4 grid gap-3 text-sm">
             <p className="flex items-center gap-2">
               <Phone size={16} className="shrink-0" />
-              <span dir="ltr">+20 10 1234 5678</span>
+              <span dir="ltr">{contactInfo.phone}</span>
             </p>
             <p className="flex items-center gap-2">
               <Mail size={16} className="shrink-0" />
-              <span dir="ltr">info@megapower.com.eg</span>
+              <span dir="ltr">{contactInfo.email}</span>
             </p>
             <p className="flex items-center gap-2">
               <MapPin size={16} className="shrink-0" />
-              {t('location')}
+              {contact('address')}
             </p>
           </div>
         </div>

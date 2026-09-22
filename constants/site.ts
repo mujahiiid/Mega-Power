@@ -14,6 +14,11 @@ import {
   UtensilsCrossed,
   Zap,
 } from 'lucide-react';
+
+export const contactInfo = {
+  phone: '010 2780 2400',
+  email: 'megapower.co1@gmail.com',
+} as const;
 import fire from '../src/assets/fire-alarm.png';
 import hse from '../src/assets/servieses/HSE.png';
 import procurement from '../src/assets/servieses/Procrutment.png';

@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { Button } from '@/components/ui/button';
+import { contactInfo } from '@/constants/site';
 
 type FormData = {
   name: string;
@@ -23,8 +24,8 @@ export function Contact() {
     message: z.string().min(10, t('validation.message')),
   });
   const details = [
-    { icon: Phone, text: '010 2780 2400', direction: 'ltr' },
-    { icon: Mail, text: 'megapow.co1@gmail.com', direction: 'ltr' },
+    { icon: Phone, text: contactInfo.phone, direction: 'ltr' },
+    { icon: Mail, text: contactInfo.email, direction: 'ltr' },
     { icon: MapPin, text: t('address'), direction: 'auto' },
     { icon: Clock3, text: t('hours'), direction: 'auto' },
   ] as const;
