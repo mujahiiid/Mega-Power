@@ -1,0 +1,38 @@
+# Dependencies
+/node_modules/
+
+# Next.js and other build output
+/.next/
+/out/
+/build/
+/dist/
+/coverage/
+
+# Generated TypeScript files
+*.tsbuildinfo
+/next-env.d.ts
+
+# Local environment files (keep examples in Git)
+.env*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs
+*.log
+logs/
+
+# Hosting and editor files
+.vercel/
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Unused source reference image
+/ChatGPT Image Aug 7, 2026, 02_58_05 AM.png

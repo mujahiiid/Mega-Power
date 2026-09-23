@@ -1,0 +1,171 @@
+{
+  "Metadata": {
+    "title": "Delta Aman | Electromechanical Contracting",
+    "description": "Integrated electromechanical, fire protection, maintenance and industrial supply solutions for Egyptian facilities."
+  },
+  "Navigation": {
+    "about": "About",
+    "services": "Services",
+    "sectors": "Sectors",
+    "work": "Typical Work",
+    "contact": "Contact",
+    "quote": "Request a Quote",
+    "toggle": "Open or close navigation",
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "Brand": { "name": "DELTA AMAN", "descriptor": "Engineering & Contracting" },
+  "Hero": {
+    "eyebrow": "ELECTROMECHANICAL • FIRE • INDUSTRIAL SUPPORT",
+    "title": "Built for demanding sites.",
+    "highlight": "Ready for real operations.",
+    "description": "Delta Aman brings electrical, fire protection, mechanical, maintenance and procurement scopes together for industrial and commercial facilities across Egypt.",
+    "primary": "Discuss Your Scope",
+    "secondary": "Explore Services",
+    "panelLabel": "How we work",
+    "panelTitle": "One coordinated technical partner",
+    "panelText": "From site survey and technical submittals to supply, installation, testing and handover.",
+    "capabilities": {
+      "coordination": "Coordinated scopes",
+      "safety": "Site-first safety",
+      "continuity": "Operational continuity"
+    }
+  },
+  "About": {
+    "eyebrow": "ABOUT DELTA AMAN",
+    "title": "Practical engineering for Egypt’s working facilities.",
+    "textOne": "Delta Aman is a fictional Egyptian B2B engineering and contracting brand created for this demonstration. Its service model reflects the day-to-day needs of factories, warehouses, commercial buildings and infrastructure operators.",
+    "textTwo": "The company is positioned around clear coordination, sensible material selection, disciplined site execution and responsive maintenance support.",
+    "note": "Demo company profile — no certifications, client claims or project figures are implied.",
+    "imageAlt": "Industrial safety helmet on a dark background"
+  },
+  "Services": {
+    "eyebrow": "CORE SERVICES",
+    "title": "Technical scopes managed under one roof",
+    "intro": "A focused service mix for new installations, upgrades and ongoing facility support.",
+    "learn": "Discuss this service",
+    "items": {
+      "electrical": {
+        "title": "Electrical & Low Voltage",
+        "text": "Power distribution, panels, containment, lighting, earthing and low-current system installation."
+      },
+      "fire": {
+        "title": "Fire Protection Systems",
+        "text": "Firefighting networks, pumps, alarms, testing and coordinated maintenance support."
+      },
+      "mechanical": {
+        "title": "Mechanical & Piping",
+        "text": "Utility piping, pumps, valves and mechanical installation for industrial and commercial sites."
+      },
+      "maintenance": {
+        "title": "Facility Maintenance",
+        "text": "Planned and corrective maintenance for critical electromechanical assets and building services."
+      },
+      "procurement": {
+        "title": "Industrial Procurement",
+        "text": "Technical sourcing for electrical, mechanical, safety and facility consumables with clear specifications."
+      },
+      "hse": {
+        "title": "HSE Site Support",
+        "text": "Practical safety documentation, toolbox coordination and site controls aligned with project needs."
+      }
+    }
+  },
+  "Sectors": {
+    "eyebrow": "WHERE WE WORK",
+    "title": "Built around the way Egyptian sites operate",
+    "intro": "Our scopes are structured for facilities where uptime, safety and practical site coordination matter.",
+    "items": {
+      "industry": "Factories & production",
+      "logistics": "Warehouses & logistics",
+      "commercial": "Commercial buildings",
+      "hospitality": "Hospitality & mixed use",
+      "utilities": "Utilities & infrastructure"
+    }
+  },
+  "Work": {
+    "eyebrow": "TYPICAL ENGAGEMENTS",
+    "title": "Representative scopes, clearly defined",
+    "intro": "These examples illustrate the kind of work the demo company is designed to undertake; they are not claimed completed projects.",
+    "scope": "Representative scope",
+    "items": {
+      "factory": {
+        "category": "Industrial",
+        "title": "Factory electrical upgrade",
+        "text": "Panel replacement, cable routing, load coordination and phased testing planned around production windows."
+      },
+      "warehouse": {
+        "category": "Logistics",
+        "title": "Warehouse fire package",
+        "text": "Fire alarm and firefighting coordination covering equipment selection, installation, testing and handover files."
+      },
+      "facility": {
+        "category": "Commercial",
+        "title": "Preventive maintenance program",
+        "text": "Asset register, inspection plan, priority matrix and scheduled support for electrical and mechanical systems."
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "DELIVERY METHOD",
+    "title": "A clear route from inquiry to handover",
+    "steps": {
+      "survey": {
+        "number": "01",
+        "title": "Survey",
+        "text": "Understand the site, operating constraints and required outcomes."
+      },
+      "proposal": {
+        "number": "02",
+        "title": "Technical proposal",
+        "text": "Define scope, materials, interfaces, schedule and commercial assumptions."
+      },
+      "delivery": {
+        "number": "03",
+        "title": "Execution",
+        "text": "Coordinate supply and installation with documented site controls."
+      },
+      "handover": {
+        "number": "04",
+        "title": "Testing & handover",
+        "text": "Verify the work and provide the agreed closeout documentation."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "REQUEST A QUOTATION",
+    "title": "Tell us what your site needs.",
+    "intro": "Share the location, required scope and target schedule. A technical coordinator can then prepare the next steps.",
+    "demo": "Demo contact details",
+    "phone": "+20 10 0000 0000",
+    "email": "inquiries@example.com",
+    "address": "Cairo, Egypt — demo office",
+    "formTitle": "Project inquiry",
+    "name": "Full name",
+    "company": "Company",
+    "emailLabel": "Work email",
+    "phoneLabel": "Phone number",
+    "message": "Describe the required scope",
+    "submit": "Send Inquiry",
+    "success": "Thank you. This demo form has been validated successfully.",
+    "validation": {
+      "name": "Please enter your name.",
+      "company": "Please enter your company name.",
+      "email": "Please enter a valid email.",
+      "phone": "Please enter your phone number.",
+      "message": "Please add a little more detail about the scope."
+    }
+  },
+  "Footer": {
+    "tagline": "Electromechanical contracting, fire protection and industrial support for working facilities in Egypt.",
+    "navigation": "Navigation",
+    "services": "Core services",
+    "contact": "Contact",
+    "electrical": "Electrical & low voltage",
+    "fire": "Fire protection",
+    "maintenance": "Facility maintenance",
+    "copyright": "© {year} Delta Aman. Demo website concept.",
+    "credits": "Photography credits"
+  }
+}
